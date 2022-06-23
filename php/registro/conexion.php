@@ -1,13 +1,13 @@
 <?php
-	#$conexion = new mysqli("localhost","u434890810_maguey_123","Maguey_123@","u434890810_maguey_123");
-	$Server="localhost";
-	$User="root";
+	$conexion = new mysqli("localhost","u434890810_maguey_123","Maguey_123@","u434890810_maguey_123");
+	//$Server="localhost";
+	//$User="root";
 	#$Pass="";
-	$Pass="Maguey_test"
+	//$Pass="Maguey_test1@"
 	#$DataBase="crm";
-	$DataBase="u434890810_test_maguey";
+	//$DataBase="u434890810_test_maguey";
 	
-	$conexion=mysqli_connect($Server,$User, $Pass,$DataBase);
+	//$conexion=mysqli_connect($Server,$User, $Pass,$DataBase);
 	//$conexion = new mysqli("localhost","crm","root","crm");
 	mysqli_set_charset($conexion,"utf8");
 	if($conexion->connect_errno > 0){
