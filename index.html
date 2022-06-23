@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Comercam</title>
+		<link rel="shortcut icon" href="images/icono.ico">
+		<meta charset="UTF-8" >
+			<meta name="viewport" content="width=device-width">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/font-awesome.css">
+			<link rel="stylesheet" href="css/estilo.css">
+			<script type="text/javascript"  src="js/jquery-1.12.4.js"></script>
+			<script type="text/javascript"  src="js/bootstrap.min.js"></script>
+			<script src="js/sha1.js"></script>
+			<script type="text/javascript"  src="js/funcionesNuevas.js"></script>
+	</head>
+	<body > 
+		<header class="clase-general">
+			<div class="container">
+			</div>
+		</header>
+
+		<div class="clase-general">
+			<div class="container-fluid">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<div class="row">
+					<div class="col-xs-0 col-md-1 col-lg-2"></div>
+
+					<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 ">
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title"></h3>
+							</div>
+							
+							<div class="panel-body">
+								<form >
+									<div class="row">
+										<div class="col-xs-12">
+											<div class="form-group">
+												<input type="text" name="usuario" id="usuario" class="form-control input-sm" placeholder="Usuario">
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-xs-12">
+											<div class="form-group">
+												<input type="password" name="pass" id="pass" class="form-control input-sm" placeholder="Contraseña" onkeypress="myFunction(event)" >
+											</div>
+										</div>
+									</div>	
+
+									<div class="row" id="alertaerror">
+										<div class="col-xs-12">
+											<div class="alert alert-danger">
+												<strong>Error</strong> usuario o contraseñas inválidos.
+											</div>
+										</div>
+									</div>	
+
+									<div class="row" id="alertacargando">
+										<div class="col-xs-12">
+											<div class="alert alert-success">
+												<strong>Cargando   <i class="fa fa-spinner fa-spin"></i></strong>
+											</div>
+										</div>
+									</div>	
+
+									<input type="button" value="Ingresar" class="btn btn-success btn-block" id="BtnIngresar">									
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-0 col-md-2 col-lg-3"></div>	
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 ">
+					<center>
+						<h2></h2>
+					</center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="clase-general">
+		</footer>
+	</body>
+</html>

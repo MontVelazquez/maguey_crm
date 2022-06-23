@@ -1,0 +1,2 @@
+datatime en now()
+guardar existenciaplanta insercion
